@@ -1,1 +1,26 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+nav a {
+    font-size: 1.5em;
+}
+
+.container table img {
+    height: 200px;
+    width: 200px;
+}
+
+.table-fixed {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.border-top {
+    border: 1px soild #f1f1f1;
+}
