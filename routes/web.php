@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', 'ChannelsController@show')->name('channels');
+Route::get('/', 'HomeController@show')->name('channels');
+Route::get('/channel/{uid}', 'ChannelsController@show')->name('channel');
+Route::get('/channel/{uid}/playlists', 'ChannelsController@playlists')->name('playlists');

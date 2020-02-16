@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use App\Channels;
 
-class videos extends Model
+class Videos extends Model
 {
     //
     public function channels()

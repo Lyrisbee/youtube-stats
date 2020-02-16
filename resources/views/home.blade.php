@@ -13,8 +13,8 @@
             @foreach ($channels as $channel)
                 <tr class="border-top">
                     <td class="pt-4 pb-4" rowspan="4">
-                        <a href="#">
-                            <img class="rounded-circle" src="{{  $channel->thumbnail  }}" alt="thumbnail">
+                        <a href="{{  route('channel', $channel->uid)  }}">
+                            <img class="rounded-circle img-md" src="{{  $channel->thumbnail  }}" alt="thumbnail">
                         </a>
                     </td>
                     <td class="pt-4" colspan="3">

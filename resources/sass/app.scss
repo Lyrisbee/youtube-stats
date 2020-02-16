@@ -11,9 +11,13 @@ nav a {
     font-size: 1.5em;
 }
 
-.container table img {
+.img-md {
     height: 200px;
     width: 200px;
+}
+
+.yt-img {
+    width: 100%
 }
 
 .table-fixed {
@@ -23,4 +27,40 @@ nav a {
 
 .border-top {
     border: 1px soild #f1f1f1;
+}
+
+.bg-blanchedalmond {
+    background-color: blanchedalmond;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.centerbar {
+    width:70%;
+    color: black;
+}
+
+.nav.flex-column  .nav-link {
+    font-size: 20px;
+    height: 2.4em;
+    &:hover {
+        background-color: rgb(247, 216, 170);
+    }
+
+    &.active {
+        background-color: rgb(247, 216, 170);
+        border-right: 3px solid rgb(255, 179, 92);
+    }
+}
+
+.text-truncate-height {
+    max-height: 3.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
 }

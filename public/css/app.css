@@ -10888,9 +10888,14 @@ nav a {
   font-size: 1.5em;
 }
 
-.container table img {
+.img-md {
   height: 200px;
   width: 200px;
+}
+
+.yt-img {
+  height: 118px;
+  width: 210px;
 }
 
 .table-fixed {
@@ -10900,5 +10905,41 @@ nav a {
 
 .border-top {
   border: 1px soild #f1f1f1;
+}
+
+.bg-blanchedalmond {
+  background-color: blanchedalmond;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.centerbar {
+  width: 70%;
+}
+
+.nav.flex-column .nav-link {
+  font-size: 20px;
+  height: 2.4em;
+}
+
+.nav.flex-column .nav-link:hover {
+  background-color: #f7d8aa;
+}
+
+.nav.flex-column .nav-link.active {
+  background-color: #f7d8aa;
+  border-right: 3px solid #ffb35c;
+}
+
+.text-truncate-height {
+  max-height: 3.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6rem;
 }
 
