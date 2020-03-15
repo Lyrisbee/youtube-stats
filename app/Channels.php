@@ -8,6 +8,7 @@ use App\Videos;
 class Channels extends Model
 {
     //
+    protected $guarded = [];
 
     public function videos()
     {

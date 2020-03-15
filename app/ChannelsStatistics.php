@@ -12,4 +12,8 @@ class ChannelsStatistics extends Model
      * @var string
      */
     protected $table = 'channel_statistics';
+
+    protected $guarded = [];
+
+    public $timestamps = false;
 }
